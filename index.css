@@ -1,0 +1,56 @@
+body {
+    min-height: 100vh;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0;
+    padding:0;
+    background-color: #eee;
+    height:50px;
+
+}
+
+button {
+    font-size: x-large;
+}
+
+ul{
+    display: flex;
+    margin-left:20px;
+    list-style-type: none;
+    text-decoration: none;
+    margin:0;
+    padding:0;
+
+}
+
+
+.search-button {
+   transform: rotate(-40deg);
+   border:none;
+   background-color: #eee;
+   margin-top:3px;
+}
+
+.menu-button {
+   border:none;
+   background-color: #eee;
+
+}
+
+.logo {
+    font-size: 30px;
+
+}
+
+.cart-button {
+    margin-bottom:16px;
+    margin-right:10px;
+    border:none;
+    background-color: #eee;
+
+}
