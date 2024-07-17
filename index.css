@@ -1,5 +1,6 @@
 body {
     min-height: 100vh;
+    min-width: 100vh;
 
 }
 
@@ -55,6 +56,10 @@ ul{
     background-color: #eee;
 }
 
+
+
+
+
 .collection-collage {
     margin:100px;
     display: flex;
@@ -107,6 +112,49 @@ a {
     color:black;
     display: flex;
     
+}
+
+
+
+
+
+
+
+.categories {
+    margin:150px;
+}
+
+.category-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    font-size: larger;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.category-img {
+    height:200px;
+    width:200px;
+}
+
+
+
+
+
+
+
+.zenith-experience {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #eee;
+    padding:100px;
+    margin:100px 0;
 }
 
 
