@@ -1,6 +1,5 @@
 body {
     min-height: 100vh;
-    min-width: 100vh;
 
 }
 
@@ -158,3 +157,60 @@ a {
 }
 
 
+
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap:18px;
+}
+
+.footer {
+    background-color: #eee;
+    display: flex;
+    height: 300px;
+    align-items: center;
+    
+    
+}
+
+.text{
+    display: flex;
+   gap:30px;
+   padding:10px;
+   
+
+}
+
+.Help-title {
+    font-weight: bold;
+}
+
+.help{
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-us{
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.about-us-title {
+    font-weight: bold;
+}
+
+.socials {
+   display: flex;
+   gap:15px;
+   margin-left:auto;
+
+}
