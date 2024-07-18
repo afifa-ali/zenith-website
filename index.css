@@ -1,6 +1,11 @@
 body {
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
     min-height: 100vh;
-
+    width:auto;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -18,30 +23,28 @@ button {
     font-size: x-large;
 }
 
-ul{
-    display: flex;
-    margin-left:20px;
-    list-style-type: none;
+ul {
     text-decoration: none;
+    list-style-type: none;
+    padding:10px;
     margin:0;
-    padding:0;
-
+    
 }
- 
 
 .search-button {
 
-   transform: rotate(-40deg);
-   border:none;
-   background-color: #eee;
-   margin-top:3px;
-}
+    transform: rotate(-40deg);
+    border:none;
+    background-color: #eee;
+    margin-top:3px;
+ }
+ 
+ .menu-button {
+    border:none;
+    background-color: #eee;
+ 
+ } 
 
-.menu-button {
-   border:none;
-   background-color: #eee;
-
-}
 
 .logo {
     font-size: 30px;
@@ -60,7 +63,6 @@ ul{
 
 
 .collection-collage {
-    margin:100px;
     display: flex;
     flex-direction: column;
     gap:80px;
@@ -115,12 +117,8 @@ a {
 
 
 
-
-
-
-
 .categories {
-    margin:150px;
+    margin:60px 0px 0px;
 }
 
 .category-title {
@@ -151,66 +149,86 @@ a {
 .zenith-experience {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     background-color: #eee;
     padding:100px;
-    margin:100px 0;
+    margin:200px 0px;
 }
 
 
 
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eee;
+    height:400px;
+    
+}
 
 ul {
     display: flex;
     flex-direction: column;
-    gap:18px;
-}
-
-.footer {
-    background-color: #eee;
-    display: flex;
-    height: 300px;
-    align-items: center;
-    
-    
-}
-
-.text{
-    display: flex;
-   gap:30px;
-   padding:10px;
-   
-
+    gap:20px;
 }
 
 .Help-title {
     font-weight: bold;
 }
 
-.help{
-    display: flex;
-    gap:10px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.about-us{
-    display: flex;
-    gap:10px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   
-}
-
 .about-us-title {
     font-weight: bold;
 }
 
-.socials {
-   display: flex;
-   gap:15px;
-   margin-left:auto;
+.footer-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:30px;
+}
 
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right:20px;
+}
+
+.subscription {
+    border: 5px solid white;
+    width:600px;
+    height:200px;
+    margin:50px;
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.subs-text {
+    padding-bottom:10px;
+
+}
+
+.sign-up-text {
+    font-size: 25px;
+}
+
+.sign-up-input {
+    height:20px;
+    margin-bottom:10px;
+
+}
+
+.sign-up-button {
+    background-color: white;
+    border-radius: 20px;
+    height:50px;
+}
+
+.socials {
+    margin-left:350px;
 }
